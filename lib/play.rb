@@ -15,7 +15,7 @@ def move(board, index, current_player = "X")
 end
 
 def position_taken?(board, index)
-  board[location] != " " && board[location] != ""
+  board[index] = "X" && board[index] = "O"
 end
 
 def valid_move?(board, index)
